@@ -1,10 +1,10 @@
 cd /tmp
 
-rm -rf docker-node-test; true
+rm -rf node-test; true
 
-git clone https://github.com/incrediblemolk/docker-node-test.git
+git clone https://github.com/12thmar/node-test.git
 
-cd docker-node-test
+cd node-test
 
 npm install
 
