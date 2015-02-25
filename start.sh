@@ -4,7 +4,7 @@ rm -rf node-test; true
 
 git clone https://github.com/12thmar/node-test.git
 
-cd src
+cd /node-test/src
 
 # Bundle app source
 ADD . /src
