@@ -9,6 +9,6 @@ RUN npm install bower nodemon -g
 EXPOSE 8080
 
 # startup
-ADD start.sh /tmp/  
-RUN chmod +x /tmp/start.sh  
-CMD ./tmp/start.sh 
+#ADD start.sh /tmp/  
+#RUN chmod +x /tmp/start.sh  
+#CMD ./tmp/start.sh 
