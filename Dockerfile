@@ -6,6 +6,8 @@ RUN apt-get install -y git git-core wget zip nodejs npm
 
 RUN npm install bower nodemon -g
 
+RUN ln -s "$(which nodejs)" /usr/bin/node
+
 EXPOSE 8080
 
 # startup
