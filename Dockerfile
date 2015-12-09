@@ -4,7 +4,7 @@ RUN apt-get update && apt-get upgrade -y
 
 RUN apt-get install -y git git-core wget zip nodejs npm
 
-RUN npm install bower nodemon -g
+RUN npm install bower nodemon yo -g
 
 RUN ln -s "$(which nodejs)" /usr/bin/node
 
